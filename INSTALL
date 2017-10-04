@@ -1,0 +1,9 @@
+Building ExtensiveCoin
+
+See doc/readme-qt.rst for instructions on building ExtensiveCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ExtensiveCoin.
+
+See doc/build-*.txt for instructions on building extensivecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of ExtensiveCoin.
