@@ -175,7 +175,7 @@ bool RecvLine(SOCKET hSocket, string& strLine)
                 // socket closed
                 printf("socket closed\n");
                 return false;
-            }
+            }dns
             else
             {
                 // socket error
@@ -1229,6 +1229,7 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
+    {"45.32.46.57", ""45.32.46.57"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
