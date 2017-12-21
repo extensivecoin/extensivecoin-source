@@ -175,7 +175,7 @@ bool RecvLine(SOCKET hSocket, string& strLine)
                 // socket closed
                 printf("socket closed\n");
                 return false;
-            }dns
+            }
             else
             {
                 // socket error
